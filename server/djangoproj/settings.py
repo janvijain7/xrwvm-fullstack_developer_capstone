@@ -136,3 +136,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATICFILES_DIRS = []
 
+CSRF_TRUSTED_ORIGINS = ["https://*.proxy.cognitiveclass.ai", "https://*.cognitiveclass.ai"]
